@@ -32,7 +32,7 @@ class Stack:
     # Write your code here
     trav = self.head
     while trav != None:
-      print(trav.data + "=>", end = "")
+      print(trav.data, "=>",sep = "", end = "")
       trav = trav.next
     print("None")
     
